@@ -1,12 +1,15 @@
 # 数据
 dataset_images/
 
-# 模型检查点
-save_models/
-*.pt
-
 # 日志
 *.log
+
+# GPU训练临时文件
+gpu_utils.py
+
+# 旧版 checkpoint（使用 Git LFS 跟踪新模型）
+save_models/multimodal_best.pt
+save_models/text_bert_best.pt
 
 # 预测输出
 predictions.csv
