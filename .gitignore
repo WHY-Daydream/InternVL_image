@@ -1,0 +1,40 @@
+# 数据
+dataset_images/
+
+# 模型检查点
+save_models/
+*.pt
+
+# 日志
+*.log
+
+# 预测输出
+predictions.csv
+predictions/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 环境
+.env
+.venv
+venv/
+env/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型缓存（ModelScope / HuggingFace）
+.cache/
